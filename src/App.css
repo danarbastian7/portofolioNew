@@ -1,38 +1,114 @@
-.App {
+/* 
+header{
+    width: inherit;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color:antiquewhite;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content{
+    background-color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    display: grid;
+    
+    
+}
+.content a {
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-align: left;
+    color: black;
+   word-spacing: 5pt;
+   letter-spacing: 1px;
+    text-justify:distribute-all-lines;
+    width: 500px;
+    display: grid;
+}
+.content c {
+        font-size: 20px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       text-align: left;
+        color: black;
+       word-spacing: 5pt;
+       letter-spacing: 1px;
+        text-justify:distribute-all-lines;
+        width: 500px;
+        display: grid;
+   
+}
+.content b{
+  justify-items:right;
+  justify-content: right;
+  grid-auto-rows: 50px;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  color: black;
+  width: 1000px;
+    float: right;
+   align-content:space-between;
+} */
+
+header{
+  overflow: hidden;
+  background-color:white;
+  color: black;
+  padding: 20px 10px;
+  height: auto;
+  width: auto;
+  font-size: 12px;
+  display:flex;
+  grid-column: auto;
   text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+header h1{
+  margin: 0.25%;
+  text-align: center;
+
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background: #1B1B25;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .separator {
+    width: 30%;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .title {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+
+     
+    }
+    
+    hr {
+      width: 75%;
+    }
+
+  .summary {
+    padding: 20px;
+    text-align: center;
+    
   }
-}
+  
+  
+  .work-experience {
+    padding: 10px;
+    font-size: 20px;
+
+  }
+  .experience-summary {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
